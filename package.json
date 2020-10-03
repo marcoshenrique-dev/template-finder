@@ -1,6 +1,12 @@
 {
   "name": "back-end",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "description": "Projeto open source para buscar templates",
+  "main": "src/index.js",
+  "repository": "https://github.com/marcoshenrique-dev/template-finder",
+  "author": "Marcos Henrique <marcoshenriqueh393@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "git-commit-msg-linter": "^3.0.0"
+  }
 }
