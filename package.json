@@ -6,7 +6,18 @@
   "repository": "https://github.com/marcoshenrique-dev/template-finder",
   "author": "Marcos Henrique <marcoshenriqueh393@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
   "dependencies": {
-    "git-commit-msg-linter": "^3.0.0"
+    "express": "^4.17.1",
+    "pg": "^8.3.3",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "git-commit-msg-linter": "^3.0.0",
+    "nodemon": "^2.0.4"
   }
 }
