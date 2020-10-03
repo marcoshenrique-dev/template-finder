@@ -17,6 +17,9 @@
     "sequelize-cli": "^6.2.0"
   },
   "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
     "git-commit-msg-linter": "^3.0.0",
     "nodemon": "^2.0.4"
   }
