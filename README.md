@@ -47,6 +47,11 @@ Senti que os templates poderiam ser encontrados de uma forma mais rápida e não
 4 - Copie o arquivo .env.example par .env `cp .env.example .env`
 4 - Rode o template-finder: `yarn start`
 
+## Rodando via Docker
+Antes de mais nada você precisa ter instalado o docker e o docker-compose nno sem ambiente.
+1- Para compilar a imagem docker (template-finder): `docker-compose build template-finder`
+2- docker-compose up template-finder
+
 # Contribuições
 
 - Todos podem contribuir, através do [discord](https://discord.gg/8DP5TaM) ou pelas [issues](https://github.com/marcoshenrique-dev/template-finder/issues/new/choose).
