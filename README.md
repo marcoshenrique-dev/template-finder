@@ -44,6 +44,7 @@ Senti que os templates poderiam ser encontrados de uma forma mais rápida e não
 1 - Clone o projeto `git clone https://github.com/marcoshenrique-dev/template-finder.git`
 2 - Entre na pasta do projeto: `cd template-finder`
 3 - Instale os pacotes requeridos: `yarn`
+4 - Copie o arquivo .env.example par .env `cp .env.example .env`
 4 - Rode o template-finder: `yarn start`
 
 # Contribuições
