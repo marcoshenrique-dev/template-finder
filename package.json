@@ -1,28 +1,28 @@
 {
-  "name": "back-end",
-  "version": "1.0.0",
-  "description": "Projeto open source para buscar templates",
-  "main": "src/index.js",
-  "repository": "https://github.com/marcoshenrique-dev/template-finder",
-  "author": "Marcos Henrique <marcoshenriqueh393@gmail.com>",
-  "license": "MIT",
-  "scripts": {
-    "start": "nodemon src/index.js"
-  },
-  "dependencies": {
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "pg": "^8.3.3",
-    "pg-hstore": "^2.3.3",
-    "semantic-release": "^17.1.2",
-    "sequelize": "^6.3.5",
-    "sequelize-cli": "^6.2.0"
-  },
-  "devDependencies": {
-    "eslint": "^7.10.0",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.22.1",
-    "git-commit-msg-linter": "^3.0.0",
-    "nodemon": "^2.0.4"
-  }
+   "name": "back-end",
+   "version": "1.0.0",
+   "description": "Projeto open source para buscar templates",
+   "main": "src/index.js",
+   "repository": "https://github.com/marcoshenrique-dev/template-finder",
+   "author": "Marcos Henrique <marcoshenriqueh393@gmail.com>",
+   "license": "MIT",
+   "scripts": {
+      "start": "nodemon src/index.js"
+   },
+   "dependencies": {
+      "dotenv": "^8.2.0",
+      "express": "^4.17.1",
+      "pg": "^8.3.3",
+      "pg-hstore": "^2.3.3",
+      "sequelize": "^6.3.5",
+      "sequelize-cli": "^6.2.0"
+   },
+   "devDependencies": {
+      "semantic-release": "^17.1.2",
+      "eslint": "^7.10.0",
+      "eslint-config-airbnb-base": "^14.2.0",
+      "eslint-plugin-import": "^2.22.1",
+      "git-commit-msg-linter": "^3.0.0",
+      "nodemon": "^2.0.4"
+   }
 }
