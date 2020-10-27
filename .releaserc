@@ -1,0 +1,12 @@
+{
+  "plugins": [
+   "@semantic-release/commit-analyzer",
+   "@semantic-release/release-notes-generator",
+   ["@semantic-release/npm",{"npmPublish":false}],
+   "@semantic-release/changelog",
+   "@semantic-release/git"
+   ],
+  "branches": ["main", "next"],
+  "type": "git",
+  "url": "git@github.com:marcoshenrique-dev/template-finder.git"
+}

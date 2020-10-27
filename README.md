@@ -38,6 +38,20 @@ Tentei achar uma forma de construir estes templates e disponibilizá-los, conseq
 
 Senti que os templates poderiam ser encontrados de uma forma mais rápida e não ter que procurar entre vários perfis, com isso tive a ideia de criar uma aplicação para qualquer pessoa visualizar e adicionar templates usando os repositórios do github. **Um projeto para comunidade, criado pela comunidade**.
 
+# Quick Start
+
+## Rodando localmente:
+1 - Clone o projeto `git clone https://github.com/marcoshenrique-dev/template-finder.git`
+2 - Entre na pasta do projeto: `cd template-finder`
+3 - Instale os pacotes requeridos: `yarn`
+4 - Copie o arquivo .env.example par .env `cp .env.example .env`
+4 - Rode o template-finder: `yarn start`
+
+## Rodando via Docker
+Antes de mais nada você precisa ter instalado o docker e o docker-compose nno sem ambiente.
+1- Para compilar a imagem docker (template-finder): `docker-compose build template-finder`
+2- docker-compose up template-finder
+
 # Contribuições
 
 - Todos podem contribuir, através do [discord](https://discord.gg/8DP5TaM) ou pelas [issues](https://github.com/marcoshenrique-dev/template-finder/issues/new/choose).
